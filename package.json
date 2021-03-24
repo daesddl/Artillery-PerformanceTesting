@@ -1,15 +1,15 @@
 {
-  "name": "Assessment-3",
+  "name": "assessment_3",
   "version": "1.0.0",
-  "description": "npm init -y",
+  "description": "Third Assessment - Performance API Testing",
   "main": "index.js",
   "scripts": {
-    "test": "artillery run --output results/report.json performance.yml && artillery report --output results/report.html results/report.json"
+    "testPerformance": "artillery run --output results/report.json performance.yml && artillery report --output results/report.html results/report.json"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Daniel Espinosa",
   "license": "ISC",
   "dependencies": {
-    "artillery": "^1.6.2"
+    "artillery": "^1.6.2",
+    "faker": "^5.4.0"
   }
 }

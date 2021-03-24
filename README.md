@@ -57,6 +57,20 @@ Script will report the performance test executed though Artillery to the YAML fi
 
 ---
 
+# Features
+
+YAML Integrates Faker.js to generate random data on the following Body Input requests
+
+- Create a new Task:
+```yml
+      - content:"{{contentTask}}" 
+```
+- Update Task:
+```yml
+      - content:"{{updatedTask}}"
+```
+---
+
 # Configuration Settings
 
 Modify the duration and arrivalRate paramaters to configure the Performance Test
